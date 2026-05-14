@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "title": "Naruto Neon Mode",
+    "category": "Naruto",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,ninja,orange&sig=1",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4820,
+    "colors": ["#FF6B00", "#0E0E0E"]
+  },
+  {
+    "id": 2,
+    "title": "Hidden Leaf Streak",
+    "category": "Naruto",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,ninja,neon&sig=2",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4460,
+    "colors": ["#FF6B00", "#0E0E0E"]
+  },
+  {
+    "id": 3,
+    "title": "Nine Tails Surge",
+    "category": "Naruto",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,fox,energy&sig=3",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3180,
+    "colors": ["#FF6B00", "#0E0E0E"]
+  },
+  {
+    "id": 4,
+    "title": "Shinobi Shadowline",
+    "category": "Naruto",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,shadow,warrior&sig=4",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2750,
+    "colors": ["#FF6B00", "#0E0E0E"]
+  },
+  {
+    "id": 5,
+    "title": "Rasengan Pulse",
+    "category": "Naruto",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,energy,blue&sig=5",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2970,
+    "colors": ["#FF6B00", "#0E0E0E"]
+  },
+  {
+    "id": 6,
+    "title": "Sage Mode Aura",
+    "category": "Naruto",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,glow,forest&sig=6",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2860,
+    "colors": ["#FF6B00", "#0E0E0E"]
+  },
+  {
+    "id": 7,
+    "title": "Leaf Village Night",
+    "category": "Naruto",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,city,night&sig=7",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2550,
+    "colors": ["#FF6B00", "#0E0E0E"]
+  },
+  {
+    "id": 8,
+    "title": "Anbu Eclipse",
+    "category": "Naruto",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,mask,shadow&sig=8",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2680,
+    "colors": ["#FF6B00", "#0E0E0E"]
+  },
+  {
+    "id": 9,
+    "title": "Grand Line Horizon",
+    "category": "One Piece",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,sea,pirate&sig=9",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4590,
+    "colors": ["#FFC107", "#0B1320"]
+  },
+  {
+    "id": 10,
+    "title": "Straw Hat Drift",
+    "category": "One Piece",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,ship,ocean&sig=10",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4370,
+    "colors": ["#FFC107", "#0B1320"]
+  },
+  {
+    "id": 11,
+    "title": "Sea King Glow",
+    "category": "One Piece",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,sea,glow&sig=11",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3120,
+    "colors": ["#FFC107", "#0B1320"]
+  },
+  {
+    "id": 12,
+    "title": "Pirate King Dawn",
+    "category": "One Piece",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,sunrise,sea&sig=12",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3010,
+    "colors": ["#FFC107", "#0B1320"]
+  },
+  {
+    "id": 13,
+    "title": "Thousand Sunny Trail",
+    "category": "One Piece",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,boat,sky&sig=13",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2960,
+    "colors": ["#FFC107", "#0B1320"]
+  },
+  {
+    "id": 14,
+    "title": "Treasure Map Neon",
+    "category": "One Piece",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,map,neon&sig=14",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2880,
+    "colors": ["#FFC107", "#0B1320"]
+  },
+  {
+    "id": 15,
+    "title": "Wano Nightfall",
+    "category": "One Piece",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,lanterns,night&sig=15",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2740,
+    "colors": ["#FFC107", "#0B1320"]
+  },
+  {
+    "id": 16,
+    "title": "Sky Island Breeze",
+    "category": "One Piece",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,clouds,sky&sig=16",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2630,
+    "colors": ["#FFC107", "#0B1320"]
+  },
+  {
+    "id": 17,
+    "title": "Breathing Flame",
+    "category": "Demon Slayer",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,flame,katana&sig=17",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4680,
+    "colors": ["#EF233C", "#121212"]
+  },
+  {
+    "id": 18,
+    "title": "Hashira Ember",
+    "category": "Demon Slayer",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,ember,blade&sig=18",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4410,
+    "colors": ["#EF233C", "#121212"]
+  },
+  {
+    "id": 19,
+    "title": "Moonlit Katana",
+    "category": "Demon Slayer",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,katana,moon&sig=19",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3090,
+    "colors": ["#EF233C", "#121212"]
+  },
+  {
+    "id": 20,
+    "title": "Butterfly Shadow",
+    "category": "Demon Slayer",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,butterfly,night&sig=20",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2950,
+    "colors": ["#EF233C", "#121212"]
+  },
+  {
+    "id": 21,
+    "title": "Crimson Train",
+    "category": "Demon Slayer",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,train,red&sig=21",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2870,
+    "colors": ["#EF233C", "#121212"]
+  },
+  {
+    "id": 22,
+    "title": "Demon Night Parade",
+    "category": "Demon Slayer",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,night,mask&sig=22",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2760,
+    "colors": ["#EF233C", "#121212"]
+  },
+  {
+    "id": 23,
+    "title": "Water Breathing",
+    "category": "Demon Slayer",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,water,blue&sig=23",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2680,
+    "colors": ["#EF233C", "#121212"]
+  },
+  {
+    "id": 24,
+    "title": "Koi Flame Dance",
+    "category": "Demon Slayer",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,koi,flame&sig=24",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2590,
+    "colors": ["#EF233C", "#121212"]
+  },
+  {
+    "id": 25,
+    "title": "Walls of Dawn",
+    "category": "Attack on Titan",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,city,wall&sig=25",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4520,
+    "colors": ["#9B7E46", "#0E0E0E"]
+  },
+  {
+    "id": 26,
+    "title": "Titan Storm",
+    "category": "Attack on Titan",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,storm,giant&sig=26",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4330,
+    "colors": ["#9B7E46", "#0E0E0E"]
+  },
+  {
+    "id": 27,
+    "title": "Survey Corps Flight",
+    "category": "Attack on Titan",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,city,flight&sig=27",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3110,
+    "colors": ["#9B7E46", "#0E0E0E"]
+  },
+  {
+    "id": 28,
+    "title": "Rumbling Horizon",
+    "category": "Attack on Titan",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,horizon,storm&sig=28",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2950,
+    "colors": ["#9B7E46", "#0E0E0E"]
+  },
+  {
+    "id": 29,
+    "title": "ODM Streak",
+    "category": "Attack on Titan",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,sky,rope&sig=29",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2840,
+    "colors": ["#9B7E46", "#0E0E0E"]
+  },
+  {
+    "id": 30,
+    "title": "Shiganshina Dusk",
+    "category": "Attack on Titan",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,city,dusk&sig=30",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2760,
+    "colors": ["#9B7E46", "#0E0E0E"]
+  },
+  {
+    "id": 31,
+    "title": "Colossal Echo",
+    "category": "Attack on Titan",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,smoke,giant&sig=31",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2690,
+    "colors": ["#9B7E46", "#0E0E0E"]
+  },
+  {
+    "id": 32,
+    "title": "Freedom's Edge",
+    "category": "Attack on Titan",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,freedom,sky&sig=32",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2610,
+    "colors": ["#9B7E46", "#0E0E0E"]
+  },
+  {
+    "id": 33,
+    "title": "Shadow Monarch",
+    "category": "Solo Leveling",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,shadow,neon&sig=33",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4630,
+    "colors": ["#6D28D9", "#090A0F"]
+  },
+  {
+    "id": 34,
+    "title": "Dungeon Rift",
+    "category": "Solo Leveling",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,portal,blue&sig=34",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4390,
+    "colors": ["#6D28D9", "#090A0F"]
+  },
+  {
+    "id": 35,
+    "title": "Arise Aura",
+    "category": "Solo Leveling",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,aura,purple&sig=35",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3150,
+    "colors": ["#6D28D9", "#090A0F"]
+  },
+  {
+    "id": 36,
+    "title": "Level Up Night",
+    "category": "Solo Leveling",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,night,glow&sig=36",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2980,
+    "colors": ["#6D28D9", "#090A0F"]
+  },
+  {
+    "id": 37,
+    "title": "Hunter's Gate",
+    "category": "Solo Leveling",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,gate,light&sig=37",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2870,
+    "colors": ["#6D28D9", "#090A0F"]
+  },
+  {
+    "id": 38,
+    "title": "Eclipse Blade",
+    "category": "Solo Leveling",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,blade,dark&sig=38",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2760,
+    "colors": ["#6D28D9", "#090A0F"]
+  },
+  {
+    "id": 39,
+    "title": "Arcane Spiral",
+    "category": "Solo Leveling",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,arcane,glow&sig=39",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2680,
+    "colors": ["#6D28D9", "#090A0F"]
+  },
+  {
+    "id": 40,
+    "title": "Void Path",
+    "category": "Solo Leveling",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,void,shadow&sig=40",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2570,
+    "colors": ["#6D28D9", "#090A0F"]
+  },
+  {
+    "id": 41,
+    "title": "Cursed Energy",
+    "category": "Jujutsu Kaisen",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,blue,energy&sig=41",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4720,
+    "colors": ["#00C2FF", "#0A0A0F"]
+  },
+  {
+    "id": 42,
+    "title": "Domain Expansion",
+    "category": "Jujutsu Kaisen",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,domain,neon&sig=42",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4430,
+    "colors": ["#00C2FF", "#0A0A0F"]
+  },
+  {
+    "id": 43,
+    "title": "Infinity Blue",
+    "category": "Jujutsu Kaisen",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,blue,glow&sig=43",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3190,
+    "colors": ["#00C2FF", "#0A0A0F"]
+  },
+  {
+    "id": 44,
+    "title": "Shibuya Neon",
+    "category": "Jujutsu Kaisen",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,city,neon&sig=44",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3020,
+    "colors": ["#00C2FF", "#0A0A0F"]
+  },
+  {
+    "id": 45,
+    "title": "Sorcerer Pulse",
+    "category": "Jujutsu Kaisen",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,magic,blue&sig=45",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2890,
+    "colors": ["#00C2FF", "#0A0A0F"]
+  },
+  {
+    "id": 46,
+    "title": "Black Flash",
+    "category": "Jujutsu Kaisen",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,flash,black&sig=46",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2780,
+    "colors": ["#00C2FF", "#0A0A0F"]
+  },
+  {
+    "id": 47,
+    "title": "Cursed Bloom",
+    "category": "Jujutsu Kaisen",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,bloom,blue&sig=47",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2690,
+    "colors": ["#00C2FF", "#0A0A0F"]
+  },
+  {
+    "id": 48,
+    "title": "Midnight Technique",
+    "category": "Jujutsu Kaisen",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,night,energy&sig=48",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2580,
+    "colors": ["#00C2FF", "#0A0A0F"]
+  },
+  {
+    "id": 49,
+    "title": "Devil Engine",
+    "category": "Chainsaw Man",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,engine,red&sig=49",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4580,
+    "colors": ["#FF3D00", "#111111"]
+  },
+  {
+    "id": 50,
+    "title": "Chainsaw Roar",
+    "category": "Chainsaw Man",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,metal,neon&sig=50",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4320,
+    "colors": ["#FF3D00", "#111111"]
+  },
+  {
+    "id": 51,
+    "title": "Blood Pact",
+    "category": "Chainsaw Man",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,blood,urban&sig=51",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3170,
+    "colors": ["#FF3D00", "#111111"]
+  },
+  {
+    "id": 52,
+    "title": "Neon Slaughter",
+    "category": "Chainsaw Man",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,neon,city&sig=52",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3010,
+    "colors": ["#FF3D00", "#111111"]
+  },
+  {
+    "id": 53,
+    "title": "Hunter Blaze",
+    "category": "Chainsaw Man",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,flame,city&sig=53",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2890,
+    "colors": ["#FF3D00", "#111111"]
+  },
+  {
+    "id": 54,
+    "title": "Steel Bite",
+    "category": "Chainsaw Man",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,steel,red&sig=54",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2760,
+    "colors": ["#FF3D00", "#111111"]
+  },
+  {
+    "id": 55,
+    "title": "Aftershock",
+    "category": "Chainsaw Man",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,shock,night&sig=55",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2670,
+    "colors": ["#FF3D00", "#111111"]
+  },
+  {
+    "id": 56,
+    "title": "Urban Devil",
+    "category": "Chainsaw Man",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,urban,red&sig=56",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2580,
+    "colors": ["#FF3D00", "#111111"]
+  },
+  {
+    "id": 57,
+    "title": "Saiyan Ignite",
+    "category": "Dragon Ball",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,fire,sky&sig=57",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4710,
+    "colors": ["#FF8F00", "#1C1A28"]
+  },
+  {
+    "id": 58,
+    "title": "Kamehameha Wave",
+    "category": "Dragon Ball",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,energy,blue&sig=58",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4450,
+    "colors": ["#FF8F00", "#1C1A28"]
+  },
+  {
+    "id": 59,
+    "title": "Ultra Instinct",
+    "category": "Dragon Ball",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,cosmic,aura&sig=59",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3210,
+    "colors": ["#FF8F00", "#1C1A28"]
+  },
+  {
+    "id": 60,
+    "title": "Namek Skies",
+    "category": "Dragon Ball",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,planet,sky&sig=60",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3050,
+    "colors": ["#FF8F00", "#1C1A28"]
+  },
+  {
+    "id": 61,
+    "title": "Fusion Spark",
+    "category": "Dragon Ball",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,light,spark&sig=61",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2910,
+    "colors": ["#FF8F00", "#1C1A28"]
+  },
+  {
+    "id": 62,
+    "title": "Spirit Bomb",
+    "category": "Dragon Ball",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,energy,orb&sig=62",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2790,
+    "colors": ["#FF8F00", "#1C1A28"]
+  },
+  {
+    "id": 63,
+    "title": "Capsule City",
+    "category": "Dragon Ball",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,city,skyline&sig=63",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2680,
+    "colors": ["#FF8F00", "#1C1A28"]
+  },
+  {
+    "id": 64,
+    "title": "Dragon Orbit",
+    "category": "Dragon Ball",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,dragon,clouds&sig=64",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2590,
+    "colors": ["#FF8F00", "#1C1A28"]
+  },
+  {
+    "id": 65,
+    "title": "Ghoul Veil",
+    "category": "Tokyo Ghoul",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,red,night&sig=65",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4560,
+    "colors": ["#E11D48", "#0A0A0A"]
+  },
+  {
+    "id": 66,
+    "title": "Red Eye",
+    "category": "Tokyo Ghoul",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,eye,red&sig=66",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4290,
+    "colors": ["#E11D48", "#0A0A0A"]
+  },
+  {
+    "id": 67,
+    "title": "Anteiku Night",
+    "category": "Tokyo Ghoul",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,cafe,night&sig=67",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3120,
+    "colors": ["#E11D48", "#0A0A0A"]
+  },
+  {
+    "id": 68,
+    "title": "Black Lotus",
+    "category": "Tokyo Ghoul",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,lotus,shadow&sig=68",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2980,
+    "colors": ["#E11D48", "#0A0A0A"]
+  },
+  {
+    "id": 69,
+    "title": "Ghoul Mirage",
+    "category": "Tokyo Ghoul",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,mask,red&sig=69",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2870,
+    "colors": ["#E11D48", "#0A0A0A"]
+  },
+  {
+    "id": 70,
+    "title": "Kagune Bloom",
+    "category": "Tokyo Ghoul",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,bloom,red&sig=70",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2760,
+    "colors": ["#E11D48", "#0A0A0A"]
+  },
+  {
+    "id": 71,
+    "title": "Silent Hunger",
+    "category": "Tokyo Ghoul",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,shadow,night&sig=71",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2670,
+    "colors": ["#E11D48", "#0A0A0A"]
+  },
+  {
+    "id": 72,
+    "title": "Raven Eclipse",
+    "category": "Tokyo Ghoul",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,raven,red&sig=72",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2580,
+    "colors": ["#E11D48", "#0A0A0A"]
+  },
+  {
+    "id": 73,
+    "title": "Neon Skyline",
+    "category": "Cyberpunk Anime",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,cyberpunk,neon&sig=73",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4760,
+    "colors": ["#9D4EDD", "#120A25"]
+  },
+  {
+    "id": 74,
+    "title": "Synthwave Circuit",
+    "category": "Cyberpunk Anime",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,cyber,city&sig=74",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 4490,
+    "colors": ["#9D4EDD", "#120A25"]
+  },
+  {
+    "id": 75,
+    "title": "Holo Blade",
+    "category": "Cyberpunk Anime",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,blade,neon&sig=75",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3220,
+    "colors": ["#9D4EDD", "#120A25"]
+  },
+  {
+    "id": 76,
+    "title": "Neon Ronin",
+    "category": "Cyberpunk Anime",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,ronin,neon&sig=76",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 3050,
+    "colors": ["#9D4EDD", "#120A25"]
+  },
+  {
+    "id": 77,
+    "title": "Ghost in City",
+    "category": "Cyberpunk Anime",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,city,glow&sig=77",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2910,
+    "colors": ["#9D4EDD", "#120A25"]
+  },
+  {
+    "id": 78,
+    "title": "Cyber Drift",
+    "category": "Cyberpunk Anime",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,cyber,street&sig=78",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2780,
+    "colors": ["#9D4EDD", "#120A25"]
+  },
+  {
+    "id": 79,
+    "title": "Quantum Alley",
+    "category": "Cyberpunk Anime",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,neon,alley&sig=79",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2690,
+    "colors": ["#9D4EDD", "#120A25"]
+  },
+  {
+    "id": 80,
+    "title": "Electric Eden",
+    "category": "Cyberpunk Anime",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?anime,neon,lights&sig=80",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2580,
+    "colors": ["#9D4EDD", "#120A25"]
+  },
+  {
+    "id": 81,
+    "title": "Turbo Pulse",
+    "category": "Cars",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?car,neon,speed&sig=81",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3920,
+    "colors": ["#00C9FF", "#003566"]
+  },
+  {
+    "id": 82,
+    "title": "Midnight GT",
+    "category": "Cars",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?car,night,city&sig=82",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2480,
+    "colors": ["#00C9FF", "#003566"]
+  },
+  {
+    "id": 83,
+    "title": "Hyperlane",
+    "category": "Cars",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?car,highway,lights&sig=83",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2350,
+    "colors": ["#00C9FF", "#003566"]
+  },
+  {
+    "id": 84,
+    "title": "Neon Track",
+    "category": "Cars",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?car,track,neon&sig=84",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2260,
+    "colors": ["#00C9FF", "#003566"]
+  },
+  {
+    "id": 85,
+    "title": "Arcade Glow",
+    "category": "Gaming",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?gaming,neon,arcade&sig=85",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3860,
+    "colors": ["#5B2EFF", "#130B2B"]
+  },
+  {
+    "id": 86,
+    "title": "Pixel Storm",
+    "category": "Gaming",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?gaming,abstract,lights&sig=86",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2440,
+    "colors": ["#5B2EFF", "#130B2B"]
+  },
+  {
+    "id": 87,
+    "title": "Pro Gamer",
+    "category": "Gaming",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?gaming,setup,neon&sig=87",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2310,
+    "colors": ["#5B2EFF", "#130B2B"]
+  },
+  {
+    "id": 88,
+    "title": "Cosmic Arena",
+    "category": "Gaming",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?gaming,cosmic,glow&sig=88",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2240,
+    "colors": ["#5B2EFF", "#130B2B"]
+  },
+  {
+    "id": 89,
+    "title": "Emerald Valley",
+    "category": "Nature",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?nature,forest,green&sig=89",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3740,
+    "colors": ["#00C853", "#0B2D1A"]
+  },
+  {
+    "id": 90,
+    "title": "Mistfall",
+    "category": "Nature",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?nature,waterfall,mist&sig=90",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2420,
+    "colors": ["#00C853", "#0B2D1A"]
+  },
+  {
+    "id": 91,
+    "title": "Aurora Grove",
+    "category": "Nature",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?nature,aurora,forest&sig=91",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2320,
+    "colors": ["#00C853", "#0B2D1A"]
+  },
+  {
+    "id": 92,
+    "title": "Serene Peaks",
+    "category": "Nature",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?nature,mountains,sky&sig=92",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2230,
+    "colors": ["#00C853", "#0B2D1A"]
+  },
+  {
+    "id": 93,
+    "title": "Lunar Drift",
+    "category": "Space",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?space,moon,stars&sig=93",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3880,
+    "colors": ["#7C4DFF", "#0F1020"]
+  },
+  {
+    "id": 94,
+    "title": "Nebula Run",
+    "category": "Space",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?space,nebula,galaxy&sig=94",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2490,
+    "colors": ["#7C4DFF", "#0F1020"]
+  },
+  {
+    "id": 95,
+    "title": "Starlight Ring",
+    "category": "Space",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?space,stars,ring&sig=95",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2360,
+    "colors": ["#7C4DFF", "#0F1020"]
+  },
+  {
+    "id": 96,
+    "title": "Cosmic Bloom",
+    "category": "Space",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?space,cosmos,glow&sig=96",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2270,
+    "colors": ["#7C4DFF", "#0F1020"]
+  },
+  {
+    "id": 97,
+    "title": "Black Velvet",
+    "category": "AMOLED",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?black,abstract,amoled&sig=97",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3610,
+    "colors": ["#00E5FF", "#000000"]
+  },
+  {
+    "id": 98,
+    "title": "Void Pulse",
+    "category": "AMOLED",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?black,neon,glow&sig=98",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2380,
+    "colors": ["#00E5FF", "#000000"]
+  },
+  {
+    "id": 99,
+    "title": "Midnight Bloom",
+    "category": "AMOLED",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?black,flower,neon&sig=99",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2280,
+    "colors": ["#00E5FF", "#000000"]
+  },
+  {
+    "id": 100,
+    "title": "Shadowline",
+    "category": "AMOLED",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?black,lines,minimal&sig=100",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2200,
+    "colors": ["#00E5FF", "#000000"]
+  },
+  {
+    "id": 101,
+    "title": "Fluid Prism",
+    "category": "Abstract",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?abstract,fluid,gradient&sig=101",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3540,
+    "colors": ["#FF4081", "#120014"]
+  },
+  {
+    "id": 102,
+    "title": "Vortex Bloom",
+    "category": "Abstract",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?abstract,vortex,color&sig=102",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2350,
+    "colors": ["#FF4081", "#120014"]
+  },
+  {
+    "id": 103,
+    "title": "Chromatic Wave",
+    "category": "Abstract",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?abstract,wave,neon&sig=103",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2260,
+    "colors": ["#FF4081", "#120014"]
+  },
+  {
+    "id": 104,
+    "title": "Spectrum Drift",
+    "category": "Abstract",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?abstract,spectrum,light&sig=104",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2190,
+    "colors": ["#FF4081", "#120014"]
+  },
+  {
+    "id": 105,
+    "title": "Quantum Grid",
+    "category": "Technology",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?technology,grid,neon&sig=105",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3680,
+    "colors": ["#00B0FF", "#0B1E2D"]
+  },
+  {
+    "id": 106,
+    "title": "Circuit Rain",
+    "category": "Technology",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?technology,circuit,blue&sig=106",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2410,
+    "colors": ["#00B0FF", "#0B1E2D"]
+  },
+  {
+    "id": 107,
+    "title": "AI Nexus",
+    "category": "Technology",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?technology,ai,neon&sig=107",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2300,
+    "colors": ["#00B0FF", "#0B1E2D"]
+  },
+  {
+    "id": 108,
+    "title": "Holo Matrix",
+    "category": "Technology",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?technology,grid,light&sig=108",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2220,
+    "colors": ["#00B0FF", "#0B1E2D"]
+  },
+  {
+    "id": 109,
+    "title": "Neon Mirage",
+    "category": "Neon",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?neon,lights,city&sig=109",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3790,
+    "colors": ["#00F5D4", "#120A25"]
+  },
+  {
+    "id": 110,
+    "title": "Electric Pulse",
+    "category": "Neon",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?neon,glow,street&sig=110",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2430,
+    "colors": ["#00F5D4", "#120A25"]
+  },
+  {
+    "id": 111,
+    "title": "Glow City",
+    "category": "Neon",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?neon,city,night&sig=111",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2320,
+    "colors": ["#00F5D4", "#120A25"]
+  },
+  {
+    "id": 112,
+    "title": "Synth Lights",
+    "category": "Neon",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?neon,lights,abstract&sig=112",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2240,
+    "colors": ["#00F5D4", "#120A25"]
+  },
+  {
+    "id": 113,
+    "title": "Zen Line",
+    "category": "Minimal",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?minimal,lines,neutral&sig=113",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3460,
+    "colors": ["#ECEFF1", "#4A4A4A"]
+  },
+  {
+    "id": 114,
+    "title": "Soft Horizon",
+    "category": "Minimal",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?minimal,sky,soft&sig=114",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2360,
+    "colors": ["#ECEFF1", "#4A4A4A"]
+  },
+  {
+    "id": 115,
+    "title": "Mono Balance",
+    "category": "Minimal",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?minimal,black,white&sig=115",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2260,
+    "colors": ["#ECEFF1", "#4A4A4A"]
+  },
+  {
+    "id": 116,
+    "title": "Quiet Form",
+    "category": "Minimal",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?minimal,geometry,neutral&sig=116",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2190,
+    "colors": ["#ECEFF1", "#4A4A4A"]
+  },
+  {
+    "id": 117,
+    "title": "Heroic Dawn",
+    "category": "Superheroes",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?superhero,city,glow&sig=117",
+    "isTrending": true,
+    "resolution": "4K",
+    "downloads": 3720,
+    "colors": ["#FF1744", "#1C0C10"]
+  },
+  {
+    "id": 118,
+    "title": "Guardian Flux",
+    "category": "Superheroes",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?superhero,neon,night&sig=118",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2430,
+    "colors": ["#FF1744", "#1C0C10"]
+  },
+  {
+    "id": 119,
+    "title": "Night Sentinel",
+    "category": "Superheroes",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?superhero,shadow,city&sig=119",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2320,
+    "colors": ["#FF1744", "#1C0C10"]
+  },
+  {
+    "id": 120,
+    "title": "Legend Strike",
+    "category": "Superheroes",
+    "imageUrl": "https://source.unsplash.com/2160x3840/?superhero,storm,neon&sig=120",
+    "isTrending": false,
+    "resolution": "4K",
+    "downloads": 2240,
+    "colors": ["#FF1744", "#1C0C10"]
+  }
+]
