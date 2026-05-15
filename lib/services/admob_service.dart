@@ -14,7 +14,7 @@ class AdmobService {
   // ─────────────────────────────────────────────
   static String get bannerAdUnitId {
     if (Platform.isAndroid) {
-      return 'ca-app-pub-3940256099942544/6300978111'; // Android test banner
+      return 'ca-app-pub-4392358942856616/1546014982'; // Android production banner
     } else if (Platform.isIOS) {
       return 'ca-app-pub-3940256099942544/2934735716'; // iOS test banner
     }
@@ -23,7 +23,7 @@ class AdmobService {
 
   static String get interstitialAdUnitId {
     if (Platform.isAndroid) {
-      return 'ca-app-pub-3940256099942544/1033173712'; // Android test interstitial
+      return 'ca-app-pub-4392358942856616/6287434680'; // Android production interstitial
     } else if (Platform.isIOS) {
       return 'ca-app-pub-3940256099942544/4411468910'; // iOS test interstitial
     }
@@ -32,7 +32,7 @@ class AdmobService {
 
   static String get nativeAdUnitId {
     if (Platform.isAndroid) {
-      return 'ca-app-pub-3940256099942544/2247696110'; // Android test native
+      return 'ca-app-pub-4392358942856616/3535095524'; // Android production native
     } else if (Platform.isIOS) {
       return 'ca-app-pub-3940256099942544/3986624511'; // iOS test native
     }
