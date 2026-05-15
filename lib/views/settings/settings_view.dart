@@ -18,11 +18,24 @@ class SettingsView extends StatelessWidget {
       child: ListView(
         padding: const EdgeInsets.all(20),
         children: [
-          Text('Settings',
-              style: Theme.of(context)
-                  .textTheme
-                  .headlineSmall
-                  ?.copyWith(fontWeight: FontWeight.w700)),
+          Row(
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(10),
+                child: Image.asset(
+                  'assets/logo/app_logo.png',
+                  width: 36,
+                  height: 36,
+                ),
+              ),
+              const SizedBox(width: 14),
+              Text('Settings',
+                  style: Theme.of(context)
+                      .textTheme
+                      .headlineSmall
+                      ?.copyWith(fontWeight: FontWeight.w700)),
+            ],
+          ),
           const SizedBox(height: 18),
           
           // Theme Toggle
@@ -154,11 +167,24 @@ class SettingsView extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(title,
-                  style: Theme.of(context)
-                      .textTheme
-                      .titleLarge
-                      ?.copyWith(fontWeight: FontWeight.w700)),
+              Row(
+                children: [
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(8),
+                    child: Image.asset(
+                      'assets/logo/app_logo.png',
+                      width: 28,
+                      height: 28,
+                    ),
+                  ),
+                  const SizedBox(width: 10),
+                  Text(title,
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleLarge
+                          ?.copyWith(fontWeight: FontWeight.w700)),
+                ],
+              ),
               const SizedBox(height: 12),
               Text(body,
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(

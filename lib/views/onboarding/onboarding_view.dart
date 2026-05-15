@@ -95,11 +95,24 @@ class _OnboardingViewState extends State<OnboardingView> {
                               duration: Duration(milliseconds: 600),
                             )
                           ],
-                          child: Lottie.asset(
-                            page.animation,
-                            width: 220,
-                            height: 220,
-                            repeat: true,
+                          child: Column(
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(12),
+                                child: Image.asset(
+                                  'assets/logo/app_logo.png',
+                                  width: 48,
+                                  height: 48,
+                                ),
+                              ),
+                              const SizedBox(height: 20),
+                              Lottie.asset(
+                                page.animation,
+                                width: 220,
+                                height: 220,
+                                repeat: true,
+                              ),
+                            ],
                           ),
                         ),
                         const SizedBox(height: 32),

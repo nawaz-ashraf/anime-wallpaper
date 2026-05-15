@@ -83,7 +83,7 @@ class WallpaperCard extends StatelessWidget {
                       onTap: () =>
                           favoritesController.toggleFavorite(wallpaper.id),
                       child: AnimatedContainer(
-                        duration: 300.ms,
+                        duration: const Duration(milliseconds: 300),
                         padding: const EdgeInsets.all(8),
                         decoration: BoxDecoration(
                           color: favoritesController.isFavorite(wallpaper.id)
@@ -137,7 +137,7 @@ class WallpaperCard extends StatelessWidget {
           ),
         )
             .animate()
-            .fadeIn(duration: 400.ms)
+            .fadeIn(duration: const Duration(milliseconds: 400))
             .scale(begin: const Offset(0.98, 0.98)),
       ),
     );

@@ -91,7 +91,7 @@ class CategoryDetailView extends StatelessWidget {
                         ),
                       ],
                     ),
-                  ).animate().fadeIn(duration: 450.ms),
+                  ).animate().fadeIn(duration: const Duration(milliseconds: 450)),
                 ),
               ),
               SliverPadding(

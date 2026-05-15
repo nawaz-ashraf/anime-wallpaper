@@ -137,7 +137,7 @@ class _WallpaperDetailViewState extends State<WallpaperDetailView> {
                         ),
                       ),
                     ),
-                  ).animate().fadeIn(duration: 500.ms),
+                  ).animate().fadeIn(duration: const Duration(milliseconds: 500)),
                 ),
                 const SizedBox(height: 16),
 

@@ -204,7 +204,7 @@ class CategoriesView extends StatelessWidget {
                         ),
                       ),
                     ).animate(delay: Duration(milliseconds: index * 60))
-                        .fadeIn(duration: 400.ms)
+                        .fadeIn(duration: const Duration(milliseconds: 400))
                         .slideX(begin: 0.05, end: 0),
                   );
                 },
