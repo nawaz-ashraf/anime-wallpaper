@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:get/get.dart';
 
 import '../models/wallpaper.dart';
@@ -33,7 +35,10 @@ class WallpaperController extends GetxController {
 
   void setCategory(String category) {
     selectedCategory.value = category;
-    categoryWallpapers.assignAll(_repository.getByCategory(category));
+    // Shuffle category wallpapers for fresh layout each time
+    final list = List<WallpaperModel>.from(_repository.getByCategory(category));
+    list.shuffle(Random());
+    categoryWallpapers.assignAll(list);
   }
 
   void refreshTrending() {

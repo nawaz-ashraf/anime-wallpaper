@@ -22,6 +22,7 @@ class _CategoryEntry {
 class WallpaperRepository {
   WallpaperRepository() {
     _buildWallpapers();
+    shuffleAll(); // Shuffle on every app launch
   }
 
   // ──────────────────────────────────────────────
@@ -56,7 +57,7 @@ class WallpaperRepository {
   // Build wallpaper list from registry
   // ──────────────────────────────────────────────
   void _buildWallpapers() {
-    final random = Random(42); // fixed seed for consistent trending
+    final random = Random();
     int globalId = 0;
 
     for (final entry in _registry) {
@@ -88,6 +89,13 @@ class WallpaperRepository {
     }
 
     // Build trending list — prioritize anime, shuffle, cap at 15
+    _buildTrendingList();
+  }
+
+  void _buildTrendingList() {
+    final random = Random();
+    _trending.clear();
+
     final trendingCandidates = _allWallpapers.where((w) => w.isTrending).toList();
     if (trendingCandidates.length < 10) {
       // If not enough were randomly selected, pick more from anime categories
@@ -113,6 +121,24 @@ class WallpaperRepository {
   }
 
   // ──────────────────────────────────────────────
+  // Shuffle System — call on every app launch
+  // ──────────────────────────────────────────────
+  void shuffleAll() {
+    final random = Random();
+
+    // Shuffle the master wallpaper list
+    _allWallpapers.shuffle(random);
+
+    // Shuffle each category's wallpapers independently
+    for (final entry in _byCategory.entries) {
+      entry.value.shuffle(random);
+    }
+
+    // Rebuild trending with fresh randomization
+    _buildTrendingList();
+  }
+
+  // ──────────────────────────────────────────────
   // Public API
   // ──────────────────────────────────────────────
   List<WallpaperModel> get allWallpapers => List.unmodifiable(_allWallpapers);
@@ -125,7 +151,7 @@ class WallpaperRepository {
     return _byCategory[category] ?? [];
   }
 
-  /// Returns the first wallpaper in a category (used as thumbnail).
+  /// Returns a random wallpaper thumbnail from the category (shuffled each launch).
   String? getCategoryThumbnail(String category) {
     final list = _byCategory[category];
     if (list == null || list.isEmpty) return null;
@@ -147,26 +173,15 @@ class WallpaperRepository {
   }
 
   List<WallpaperModel> getSimilar(WallpaperModel wallpaper, {int limit = 6}) {
-    return _allWallpapers
+    final list = _allWallpapers
         .where((w) => w.category == wallpaper.category && w.id != wallpaper.id)
-        .take(limit)
         .toList();
+    list.shuffle(Random());
+    return list.take(limit).toList();
   }
 
   /// Refresh trending with a new random seed.
   void refreshTrending() {
-    final random = Random();
-    _trending.clear();
-    final candidates = <WallpaperModel>[];
-
-    // Prioritize anime categories
-    for (final entry in _registry) {
-      final categoryWallpapers = _byCategory[entry.displayName] ?? [];
-      final shuffled = [...categoryWallpapers]..shuffle(random);
-      final take = entry.isAnime ? 3 : 1;
-      candidates.addAll(shuffled.take(take));
-    }
-    candidates.shuffle(random);
-    _trending.addAll(candidates.take(15));
+    _buildTrendingList();
   }
 }

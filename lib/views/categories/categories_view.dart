@@ -189,35 +189,6 @@ class CategoriesView extends StatelessWidget {
                                           ],
                                         ),
                                       ),
-                                      // Wallpaper count badge
-                                      Container(
-                                        padding:
-                                            const EdgeInsets.symmetric(
-                                          horizontal: 14,
-                                          vertical: 8,
-                                        ),
-                                        decoration: BoxDecoration(
-                                          color: Colors.white
-                                              .withOpacity(0.18),
-                                          borderRadius:
-                                              BorderRadius.circular(14),
-                                          border: Border.all(
-                                            color: Colors.white
-                                                .withOpacity(0.1),
-                                          ),
-                                        ),
-                                        child: Text(
-                                          '$count',
-                                          style: Theme.of(context)
-                                              .textTheme
-                                              .labelLarge
-                                              ?.copyWith(
-                                                color: Colors.white,
-                                                fontWeight:
-                                                    FontWeight.w700,
-                                              ),
-                                        ),
-                                      ),
                                       const SizedBox(width: 6),
                                       const Icon(
                                         Icons.arrow_forward_ios,

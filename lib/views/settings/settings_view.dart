@@ -24,6 +24,8 @@ class SettingsView extends StatelessWidget {
                   .headlineSmall
                   ?.copyWith(fontWeight: FontWeight.w700)),
           const SizedBox(height: 18),
+          
+          // Theme Toggle
           GlassContainer(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -50,6 +52,8 @@ class SettingsView extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 16),
+          
+          // General Settings
           GlassContainer(
             child: Column(
               children: [
@@ -104,6 +108,35 @@ class SettingsView extends StatelessWidget {
               ],
             ),
           ),
+          
+          const SizedBox(height: 24),
+          Text('Legal',
+              style: Theme.of(context)
+                  .textTheme
+                  .titleMedium
+                  ?.copyWith(fontWeight: FontWeight.w700)),
+          const SizedBox(height: 12),
+
+          // Copyright Section
+          _ExpandableInfoCard(
+            title: 'Copyright Notice',
+            icon: Icons.copyright,
+            content:
+                'All wallpapers used in this application belong to their respective owners. This app is created for entertainment and personalization purposes only. If you are the rightful owner of any content and want it removed, please contact us and the content will be removed immediately.',
+            gradient: const [Color(0xFF7C3AED), Color(0xFF5B2EFF)],
+          ),
+          const SizedBox(height: 16),
+
+          // Disclaimer Section
+          _ExpandableInfoCard(
+            title: 'Disclaimer',
+            icon: Icons.gavel,
+            content:
+                'AnimeVerse 4K does not claim ownership of copyrighted anime artworks or wallpapers. All trademarks, logos, and images belong to their respective creators and studios. Wallpapers are collected from publicly available sources or user-provided assets for fan entertainment purposes only.',
+            gradient: const [Color(0xFFFF3D00), Color(0xFFEF233C)],
+          ),
+          
+          const SizedBox(height: 100), // Bottom padding
         ],
       ),
     );
@@ -198,6 +231,96 @@ class _SettingsTile extends StatelessWidget {
               ),
             ),
             Icon(Icons.chevron_right, color: tc.iconMuted),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ExpandableInfoCard extends StatefulWidget {
+  const _ExpandableInfoCard({
+    required this.title,
+    required this.icon,
+    required this.content,
+    required this.gradient,
+  });
+
+  final String title;
+  final IconData icon;
+  final String content;
+  final List<Color> gradient;
+
+  @override
+  State<_ExpandableInfoCard> createState() => _ExpandableInfoCardState();
+}
+
+class _ExpandableInfoCardState extends State<_ExpandableInfoCard> {
+  bool _isExpanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    final tc = context.appThemeColors;
+    return GestureDetector(
+      onTap: () => setState(() => _isExpanded = !_isExpanded),
+      child: GlassContainer(
+        padding: EdgeInsets.zero,
+        child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(16),
+              child: Row(
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(10),
+                    decoration: BoxDecoration(
+                      gradient: LinearGradient(colors: widget.gradient),
+                      borderRadius: BorderRadius.circular(14),
+                      boxShadow: [
+                        BoxShadow(
+                          color: widget.gradient.first.withOpacity(0.3),
+                          blurRadius: 8,
+                          offset: const Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                    child: Icon(widget.icon, color: Colors.white, size: 20),
+                  ),
+                  const SizedBox(width: 14),
+                  Expanded(
+                    child: Text(
+                      widget.title,
+                      style: Theme.of(context)
+                          .textTheme
+                          .titleSmall
+                          ?.copyWith(fontWeight: FontWeight.w700),
+                    ),
+                  ),
+                  AnimatedRotation(
+                    turns: _isExpanded ? 0.5 : 0,
+                    duration: const Duration(milliseconds: 300),
+                    child: Icon(Icons.expand_more, color: tc.iconMuted),
+                  ),
+                ],
+              ),
+            ),
+            AnimatedCrossFade(
+              firstChild: const SizedBox.shrink(),
+              secondChild: Padding(
+                padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+                child: Text(
+                  widget.content,
+                  style: Theme.of(context).textTheme.bodySmall?.copyWith(
+                        color: tc.textSecondary,
+                        height: 1.5,
+                      ),
+                ),
+              ),
+              crossFadeState: _isExpanded
+                  ? CrossFadeState.showSecond
+                  : CrossFadeState.showFirst,
+              duration: const Duration(milliseconds: 300),
+            ),
           ],
         ),
       ),

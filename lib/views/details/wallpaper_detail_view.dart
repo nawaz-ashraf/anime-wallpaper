@@ -12,6 +12,7 @@ import '../../models/wallpaper.dart';
 import '../../themes/app_colors.dart';
 import '../../widgets/glass_container.dart';
 import '../../widgets/wallpaper_card.dart';
+import '../../services/admob_service.dart';
 
 class WallpaperDetailView extends StatefulWidget {
   const WallpaperDetailView({super.key});
@@ -21,6 +22,13 @@ class WallpaperDetailView extends StatefulWidget {
 }
 
 class _WallpaperDetailViewState extends State<WallpaperDetailView> {
+  @override
+  void initState() {
+    super.initState();
+    // Notify AdmobService that a detail view was opened
+    AdmobService.instance.onDetailViewOpened();
+  }
+
   @override
   Widget build(BuildContext context) {
     final wallpaper = Get.arguments as WallpaperModel?;

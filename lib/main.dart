@@ -16,9 +16,14 @@ import 'services/download_service.dart';
 import 'services/local_storage_service.dart';
 import 'themes/app_theme.dart';
 
+import 'services/admob_service.dart';
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
+
+  // Initialize Ads
+  await AdmobService.instance.initialize();
 
   final storageService = LocalStorageService();
   await storageService.init();

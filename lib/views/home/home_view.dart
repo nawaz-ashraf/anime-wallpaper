@@ -14,6 +14,7 @@ import '../../widgets/section_header.dart';
 import '../../widgets/shimmer_tile.dart';
 import '../../widgets/trending_carousel.dart';
 import '../../widgets/wallpaper_card.dart';
+import '../../widgets/ad_banner_widget.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -110,6 +111,11 @@ class _HomeViewState extends State<HomeView> {
                             arguments: wallpaper),
                       ),
               ),
+            ),
+
+            // ── Home Banner Ad ──
+            const SliverToBoxAdapter(
+              child: AdBannerWidget(),
             ),
 
             // ── Categories Section ──

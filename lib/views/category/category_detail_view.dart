@@ -86,12 +86,6 @@ class CategoryDetailView extends StatelessWidget {
                                       ?.copyWith(
                                           color: Colors.white,
                                           fontWeight: FontWeight.w700)),
-                              const SizedBox(height: 4),
-                              Text('${wallpapers.length} wallpapers',
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .bodySmall
-                                      ?.copyWith(color: Colors.white70)),
                             ],
                           ),
                         ),
